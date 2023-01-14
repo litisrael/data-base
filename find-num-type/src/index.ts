@@ -6,7 +6,8 @@ import {
   arrSorted,
   searchLog,
   arrIncludesClassic,
-} from "./utilitis";
+} from "./utilitis.js";
+
 
 const rl = readline.createInterface({ input, output });
 
