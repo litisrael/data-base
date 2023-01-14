@@ -16,6 +16,7 @@ const ask = async (): Promise<void> => {
     await rl.question(
       "Tell me what number you're looking for, I'll check if I have it\n"
     )
+    
   ).toString();
   const answerSearch = parseInt(
     await rl.question(
