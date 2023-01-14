@@ -30,6 +30,7 @@ function getRandomNumber(): number {
     value: number
     next: Node | null
   
+    
     constructor(index: number, value: number) {
       this.index = index
       this.value = value

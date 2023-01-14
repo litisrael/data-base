@@ -63,6 +63,7 @@ const printValuesList = (head) => {
         valuesOflist.push(current.value);
         current = current.next;
     }
+    
 };
 printValuesList(listUnsorted.head);
 const sortedValues = valuesOflist.sort((a, b) => a - b);
