@@ -20,4 +20,4 @@ async function makeQuery(animal_class, diet, behavior, age ,lifespan)
       await client.end()
 }
 
-      makeQuery("pato","pan","bla",'5','10')
+      makeQuery("paloma","pan","bla",'5','10')
