@@ -19,4 +19,5 @@ async function makeQuery(animal_class, diet, behavior, age ,lifespan)
       console.log("%j", res.rows)
       await client.end()
 }
+
       makeQuery("paloma","pan","bla",'5','10')
