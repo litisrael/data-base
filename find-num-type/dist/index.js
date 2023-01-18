@@ -8,15 +8,15 @@ const ask = async () => {
     if (answerSearch === 1) {
         console.log(arrIncludesClassic(arrUnsorted, parseInt(answerNumber)));
     }
-    if (answerSearch == 2) {
+    if (answerSearch === 2) {
         console.log(searchLog(arrSorted, parseInt(answerNumber)));
     }
-    if (answerSearch == 3) {
+    if (answerSearch === 3) {
         listUnsorted.find(parseInt(answerNumber)) !== false
             ? console.log(`yes the number ${answerSearch} is in the node ${listUnsorted.find(parseInt(answerNumber))} `)
             : console.log(`the number ${answerSearch} is not in the list`);
     }
-    if (answerSearch == 4) {
+    if (answerSearch === 4) {
         listUnsorted.find(parseInt(answerNumber)) !== false
             ? console.log(`yes the number ${answerSearch} is in the node ${listUnsorted.find(parseInt(answerNumber))} `)
             : console.log(`the number ${answerSearch} is not in the list`);
