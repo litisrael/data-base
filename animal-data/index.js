@@ -3,6 +3,7 @@ import Client from 'pg/lib/client.js'
 async function makeQuery(animal_class, diet, behavior, age ,lifespan)
 
 
+
 {const client = new Client({
         user: 'animal_server',
         password: '01456',
