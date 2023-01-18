@@ -1,7 +1,6 @@
 import { randomUUID } from "crypto"
 import pg from 'pg';
 const { Client } = pg;
-
 async function makeQuery(
     name, birthday, country, city, 
     street_1, postal_code, phone_number
