@@ -1,4 +1,5 @@
 import Client from 'pg/lib/client.js'
+
 //probando si sube a github
 async function makeQuery(animal_class, diet, behavior, age ,lifespan)
 
